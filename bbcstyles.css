@@ -1,0 +1,269 @@
+#topbar{
+        background-color: #7B0000;
+        width:100%;
+        height:35px;
+        color: white;
+    }
+    body{
+        margin:0px;
+        font-family:helvetica, arial, sans-serif;
+    }
+    .fixedwidth{
+        width:1050px;
+        margin:0 auto;
+        
+    }
+    #logodiv{
+       padding-top: 4px;
+        float: left;
+        border-right: 1px solid #9A0000;
+        padding-right: 10px;
+
+    }
+    #signin{
+
+        width:150px;
+        height:26px;
+        font-weight: bold;
+        font-size: 0.9em;
+        padding-top: 9px;
+        border-right: 1px solid #9A0000;
+        float: left;
+    }
+    #signin img{
+
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    #topbarlist ul{
+        margin:0;
+        padding:0;
+        float: left;
+    }
+
+    #topbarlist li{
+        list-style: none;
+        
+        height:26px;
+        font-weight: bold;
+        font-size: 0.9em;
+        padding: 9px 5px 0px 5px;
+        border-right: 1px solid #9A0000;
+        float: left;
+    }
+    #searchbar{
+        padding: 7px;
+        float: left;
+    }
+    #searchbar input{
+     padding: 1px 0px 0px 7px;
+     font-size: 0.8em;
+     background-image: url("images/search.png");
+     background-repeat: no-repeat;
+     background-position: right;
+    }
+    .clean{
+        clear: both;
+    }
+
+     #newsbar{
+
+        background-color: #9A0000;
+        width:100%;
+        height:88px;
+        color: white;
+    }
+    #newsbarlist ul{
+        background-color: #3E0C0D;
+        margin:0;
+        float: left;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        position: relative;
+        bottom: 13px;
+        height: 16px;
+        width: 100%;
+    }
+
+    #newsbarlist li{
+        list-style: none;
+        padding: 0px 5px 0px 5px;
+        font-weight: bold;
+        font-size: 0.9em;
+        /*padding: 9px 5px 0px 5px;*/
+        border-right: 1px solid #5D2C33;
+        float: left;
+    }
+    .news p{
+        padding-top: 10px;
+        margin: 0;
+    }
+    .newstext{
+        font-size:2.6em;
+    }
+    .uktext{
+        font-size: 0.7em;
+        padding-left: 16px;
+    }
+    #rss{
+        float: right;
+        position: relative;
+        bottom: 23px;
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+    #rss img{
+        position: relative;
+        top: 2.3px;
+    }
+    .selected{
+        background-color: #EDEDED;
+        color: #505053;
+        height: 20px;
+        padding-top: 5px !important;
+        position: relative;
+        bottom: 4px;
+    }
+    #contentwidth{
+        width:100%;
+        color: #505050;
+        background-color: #FFFFFF;
+    }
+    #updatetime{
+    position: relative;
+    bottom: 15px;
+    font-size: 0.9em;
+    }
+    #headline{
+        color: #1F4F82;
+        font-size: 2em;
+        position: relative;
+        bottom: 29px;
+    }
+
+   #mainheadline img{
+        float: left;
+    position: relative;
+    bottom: 39px;
+   }
+   #newsitem{
+    position: relative;
+    bottom: 56px;
+    left: 16px;
+    width: 265px;
+    float: left;
+    font-size: 0.9em;
+   }
+
+   #headlinelist a{
+    color: #1F5495;
+    text-decoration: none;
+   }
+   #headlinelist a:hover{
+    text-decoration: underline;
+   }
+   .video{
+    background-image: url("images/triangle.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 19px;
+   }
+   .audio{
+    background-image: url("images/speaker.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 19px;
+   }
+   #watchlisten{
+    background-color: #EEEEEE;
+    float: right;
+    width:338px;
+    height: 247px;
+    position: relative;
+    bottom: 110px;
+   }
+   #watchlisten h2{
+    color: #505050;
+    position: relative;
+    bottom: 16px;
+    left: 10px;
+   }
+   .boxes{
+    float: right;
+    padding-top: 13px;
+    padding-right: 5px;
+   }
+   .watchdesc{
+    float: left;
+    position: relative;
+    bottom: 31px;
+    border-right: 1px solid white;
+   }
+   .watchdesc p{
+    width:144px;
+    background-color: #D1700E;
+    position: relative;
+    bottom: 20px;
+    height: 43px;
+    color:#F3F6FF;
+   }
+   .watchdesc a{
+    text-decoration: none;
+    color: #F6F6FF;
+    font-size: 0.9em;
+    padding: 10px 0px 0px 15px;
+   }
+   .watchdesc a:hover{
+    text-decoration: underline;
+   }
+
+    .watchdescend{
+        width:52px;
+    float: left;
+    position: relative;
+    bottom: 191px;
+    left: 145px;
+
+   }
+   .watchdescend p{
+    
+    background-color: #D1700E;
+    position: relative;
+    bottom: 20px;
+    height: 44px;
+    color:#F3F6FF;
+    width:47px;
+   }
+   .watchdescend a{
+    width:52px;
+    text-decoration: none;
+    color: #F6F6FF;
+    font-size: 0.9em;
+    padding: 10px 0px 0px 15px;
+   }
+   .watchdescend a:hover{
+    text-decoration: underline;
+   }
+   .live{
+    float:left;
+    position: relative;
+    bottom: 234px;
+    right: 16px;
+   }
+   .live ul{
+    position: relative;
+    left: 16px;
+   }
+   .live li{
+    width:297px;
+    color: #1F71AD;
+    padding-top: 2px;
+    font-weight: bold;
+    font-size:13px;
+    padding-bottom:7px;
+    list-style-image: url("images/live.jpg");
+   }
+   .bb{
+    border-bottom:1px solid #DDDDDD;
+   }
